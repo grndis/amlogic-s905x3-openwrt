@@ -184,7 +184,19 @@ rebuild_firmware() {
     # Selecting default packages, lib, theme, app and i18n, etc.
     # sorting by https://build.moz.one
     my_packages="\
-        base-files ca-bundle dropbear fstools libc libgcc libustream-mbedtls logd mtd netifd opkg uci uclient-fetch urandom-seed urngd busybox procd procd-ujail procd-seccomp mkf2fs e2fsprogs blkid dnsmasq firewall4 nftables kmod-nft-offload odhcp6c odhcpd-ipv6only ppp ppp-mod-pppoe
+        acpid attr base-files bash bc blkid block-mount blockd bsdtar \
+        btrfs-progs busybox bzip2 cgi-io chattr comgt comgt-ncm containerd coremark \
+        coreutils coreutils-base64 coreutils-nohup coreutils-truncate curl docker \
+        docker-compose dockerd dosfstools dumpe2fs e2freefrag e2fsprogs exfat-mkfs \
+        f2fs-tools f2fsck fdisk gawk getopt gzip hostapd-common iconv iw iwinfo jq jshn \
+        kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-mac80211 libjson-script \
+        liblucihttp liblucihttp-lua libnetwork losetup lsattr lsblk lscpu mkf2fs \
+        mount-utils openssl-util parted perl-http-date perlbase-file perlbase-getopt \
+        perlbase-time perlbase-unicode perlbase-utf8 pigz ppp ppp-mod-pppoe \
+        proto-bonding pv rename resize2fs runc subversion-client subversion-libs tar \
+        tini ttyd tune2fs uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch \
+        uuidgen wget-ssl whereis which wpad-basic wwan xfs-fsck xfs-mkfs xz \
+        xz-utils ziptool zoneinfo-asia zoneinfo-core zstd \
         \
         luci luci-base luci-compat luci-i18n-base-en luci-i18n-base-zh-cn luci-lib-base  \
         luci-lib-docker luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
