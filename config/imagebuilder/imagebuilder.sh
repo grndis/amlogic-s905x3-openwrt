@@ -198,13 +198,10 @@ rebuild_firmware() {
         uuidgen wget-ssl whereis which wpad-basic wwan xfs-fsck xfs-mkfs xz \
         xz-utils ziptool zoneinfo-asia zoneinfo-core zstd \
         \
-        luci luci-base luci-compat luci-lib-base luci-app-samba4 luci-app-sqm \
-        luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
-        luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
-        luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6  \
-        luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay luci-proto-wireguard unetd \
+        luci-app-samba4 luci-app-sqm \
+        luci-proto-wireguard unetd \
         \
-        luci-app-amlogic zoneinfo-asia \
+        luci-app-amlogic \
         \
         "
 
