@@ -233,7 +233,7 @@ jobs:
 
       - name: Packaging OpenWrt
         if: ${{ steps.imagebuilder.outputs.status }} == 'success' && !cancelled()
-        uses: grndis/amlogic-s905x3-openwrt@main
+        uses: ophub/amlogic-s9xxx-openwrt@main
         with:
           openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
           openwrt_board: ${{ inputs.openwrt_board }}
