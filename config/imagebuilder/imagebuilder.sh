@@ -67,7 +67,7 @@ download_imagebuilder() {
     if [[ "${op_branch:0:2}" -ge "23" && "${op_branch:3:2}" -ge "05" ]]; then
         target_system="armsr/armv8"
         target_name="armsr-armv8"
-        target_profile=""
+        target_profile="Generic"
     else
         target_system="armvirt/64"
         target_name="armvirt-64"
