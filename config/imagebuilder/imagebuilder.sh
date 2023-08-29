@@ -206,7 +206,6 @@ rebuild_firmware() {
         \
         luci-app-amlogic zoneinfo-asia \
         \
-        ${config_list} \
         "
 
     # Rebuild firmware
