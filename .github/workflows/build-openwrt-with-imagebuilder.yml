@@ -189,7 +189,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     if: ${{ github.event.repository.owner.id }} == ${{ github.event.sender.id }}
 
     steps:
