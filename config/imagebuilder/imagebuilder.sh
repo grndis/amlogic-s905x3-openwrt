@@ -186,7 +186,8 @@ rebuild_firmware() {
     my_packages="\
         acpid attr base-files bash bc blkid block-mount blockd bsdtar \
         btrfs-progs busybox bzip2 cgi-io chattr comgt comgt-ncm containerd coremark \
-        coreutils coreutils-base64 coreutils-nohup coreutils-truncate curl coreutils-comm coreutils-od coreutils-stty coreutils-sort \
+        coreutils coreutils-base64 coreutils-nohup coreutils-truncate curl \
+        coreutils-comm coreutils-od coreutils-stty coreutils-sort \
         dosfstools dumpe2fs e2freefrag e2fsprogs exfat-mkfs irqbalance adguardhome \
         f2fs-tools f2fsck fdisk gawk getopt gzip hostapd-common iconv iw iwinfo jq jshn \
         kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-mac80211 libjson-script \
@@ -197,6 +198,7 @@ rebuild_firmware() {
         tini ttyd tune2fs uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch \
         uuidgen wget-ssl whereis which wpad-basic wwan xfs-fsck xfs-mkfs xz \
         xz-utils ziptool zoneinfo-asia zoneinfo-core zstd iperf3 \
+        kmod-usb-net kmod-usb-net-rtl8152 \
         \
         luci luci-base luci-compat luci-lib-base luci-app-samba4 luci-app-sqm \
         luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio luci-app-upnp \
