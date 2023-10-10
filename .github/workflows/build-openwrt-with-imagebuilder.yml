@@ -153,6 +153,7 @@ on:
           - 5.10.1
           - 5.15.1
           - 6.1.1
+          - 6.4.11
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
@@ -165,6 +166,7 @@ on:
         type: choice
         options:
           - ophub/kernel
+          - armarchindo/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
