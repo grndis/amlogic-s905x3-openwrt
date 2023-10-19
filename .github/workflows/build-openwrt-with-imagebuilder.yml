@@ -15,12 +15,10 @@ on:
       releases_branch:
         description: "Select the releases branch"
         required: false
-        default: "openwrt:22.03.5"
+        default: "openwrt:23.05.0"
         type: choice
-        options:
-          - openwrt:23.05.0-rc4        
-          - openwrt:23.05.0-rc3        
-          - openwrt:23.05.0-rc2        
+        options:       
+          - openwrt:23.05.0        
           - openwrt:22.03.5
           - openwrt:21.02.7
           - openwrt:19.07.10
@@ -167,7 +165,7 @@ on:
         type: choice
         options:
           - ophub/kernel
-          - armarchindo/kernel
+          #- armarchindo/kernel
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
@@ -178,7 +176,7 @@ on:
           - flippy
           - dev
           - beta
-          - kernel.org
+          #- kernel.org
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false

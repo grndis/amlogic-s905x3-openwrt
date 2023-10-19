@@ -197,7 +197,7 @@ rebuild_firmware() {
         proto-bonding pv rename resize2fs runc subversion-client subversion-libs tar \
         tini ttyd tune2fs uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch \
         uuidgen wget-ssl whereis which wpad-basic wwan xfs-fsck xfs-mkfs xz \
-        xz-utils ziptool zoneinfo-asia zoneinfo-core zstd iperf3 \
+        xz-utils ziptool zoneinfo-asia zoneinfo-core zstd iperf3 vsftpd \
         kmod-usb-net kmod-usb-net-rtl8152 \
         \
         luci luci-base luci-compat luci-lib-base luci-app-samba4 luci-app-sqm \
