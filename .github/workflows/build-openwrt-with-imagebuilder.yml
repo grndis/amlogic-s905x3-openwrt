@@ -17,7 +17,8 @@ on:
         required: false
         default: "openwrt:23.05.0"
         type: choice
-        options:       
+        options: 
+          - openwrt:23.05.3
           - openwrt:23.05.2        
           - openwrt:22.03.5
           - openwrt:21.02.7
