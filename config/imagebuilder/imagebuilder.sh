@@ -186,7 +186,7 @@ rebuild_firmware() {
     # Selecting default packages, lib, theme, app and i18n, etc.
     my_packages="\
         acpid attr base-files bash bc blkid block-mount blockd bsdtar btrfs-progs busybox bzip2 \
-        cgi-io chattr comgt comgt-ncm containerd coremark coreutils coreutils-base64 coreutils-nohup \
+        cgi-io chattr comgt comgt-ncm coremark coreutils coreutils-base64 coreutils-nohup \
         coreutils-truncate curl dosfstools dumpe2fs e2freefrag e2fsprogs \
         exfat-mkfs f2fs-tools f2fsck fdisk gawk getopt git gzip hostapd-common iconv iw iwinfo jq \
         jshn kmod-brcmfmac kmod-brcmutil kmod-cfg80211 kmod-mac80211 libjson-script liblucihttp \
@@ -195,6 +195,8 @@ rebuild_firmware() {
         pigz ppp ppp-mod-pppoe proto-bonding pv rename resize2fs runc tar tini ttyd tune2fs \
         uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch uuidgen wget-ssl whereis \
         which wpad-basic wwan xfs-fsck xfs-mkfs xz xz-utils ziptool zoneinfo-asia zoneinfo-core zstd \
+        iperf3 vsftpd \
+        coreutils-comm coreutils-od coreutils-stty coreutils-sort \
         irqbalance adguardhome \
         \
         luci luci-base luci-compat luci-i18n-base-zh-cn luci-lib-base \
